@@ -1,0 +1,70 @@
+import UIKit
+
+
+// Fonksiyonlar
+
+
+//Basit fonksiyon tanýmý
+
+
+func fonksiyonismi(){
+
+
+print(&quot;Merhaba&quot;)
+
+}
+
+
+//Sayýsal iþlem yapan fonksiyon
+
+
+func hesapla(){
+
+
+let a = 2
+
+let b = 3
+
+
+
+print(a*b)
+
+}
+
+
+//Çarpma Ýþlemi yapan fonksiyon
+
+
+func carpma(a:Int,b:Int)->Int{
+
+
+return a*b
+
+}
+
+
+// String deðer alýp intger sonuç dönen fonksiyon
+
+
+func kacKarakterli(yazi:String)->Int{
+
+
+return yazi.count // Swift 4 versiyonudur
+
+// return yazi.characters.count
+
+}
+
+
+//kacKarakterli(yazi: "TürkçeSwift4ProgramlamaEðitimineHoþgeldiniz")
+
+
+func selamlama(isim:String)->String{
+
+
+return &quot;Merhaba \(isim)&quot;
+
+}
+
+
+selamlama(isim: "Ali")
